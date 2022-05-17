@@ -140,7 +140,7 @@ export default function Details() {
                     <div className='col-md-5'>
                         <img src={game.gambar_game} alt="Foto Game" style={{width:'100%', height:'auto'}}/>
                         <div className='download mt-3'>
-                            <Link to={game.download_link}><img src={Button} alt="Foto Game" style={{width:'100%', height:'auto'}}/></Link>
+                            <Link href={game.download_link}><img src={Button} alt="Foto Game" style={{width:'100%', height:'auto'}}/></Link>
                         </div>
                         <div className='likecontent row my-3'>
                             <div className='col-2'>
